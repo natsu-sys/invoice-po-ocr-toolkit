@@ -2647,7 +2647,7 @@ class InvoiceApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("KSJ Invoice Pro")
+        self.title("Invoice OCR Toolkit")
         self.geometry("1060x620")
         self.minsize(1000, 580)
         self.resizable(True, True)
@@ -2708,7 +2708,7 @@ class InvoiceApp(ctk.CTk):
 
         title_box = ctk.CTkFrame(header_frame, fg_color="transparent")
         title_box.pack(side='left', padx=20, pady=8)
-        ctk.CTkLabel(title_box, text="KSJ Invoice Pro",
+        ctk.CTkLabel(title_box, text="Invoice OCR Toolkit",
                      font=ctk.CTkFont(size=20, weight="bold"),
                      text_color="white").pack(anchor='w')
         ctk.CTkLabel(title_box, text="PDF 変換ツール",
@@ -2973,7 +2973,7 @@ class InvoiceApp(ctk.CTk):
                                   fg_color="#0F172A", text_color="#E2E8F0")
         self.log.pack(fill='both', expand=True, padx=10, pady=8)
 
-        self.log.insert("end", "KSJ Invoice Pro — Ready\n")
+        self.log.insert("end", "Invoice OCR Toolkit — Ready\n")
 
         # mode var เก็บไว้ให้ run_batch / helper เดิมใช้ (ขับด้วย select_task)
         self.doc_mode = ctk.StringVar(value="invoice")
