@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# build artifacts
+build/
+dist/
+*.spec.bak
+
+# runtime state (created by the app, machine-specific)
+settings.json
+output/
+
+# editor
+.idea/
+.vscode/

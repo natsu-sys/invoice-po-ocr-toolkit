@@ -1,0 +1,4 @@
+# Only needed to regenerate sample_data/*.pdf via sample_data/generate_samples.py.
+# Not required to run the app itself (see requirements.txt).
+reportlab
+python-barcode
